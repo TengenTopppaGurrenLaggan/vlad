@@ -20,5 +20,11 @@
   "dependencies": {
     "heroku": "^7.35.1",
     "mocha": "^6.2.2"
+  },
+  "husky": {
+    "hooks": {
+      "precommit":"npm run prettier",
+      "prepush": "call npm run lint && call npm run test"
+    }
   }
 }
