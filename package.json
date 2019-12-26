@@ -18,6 +18,7 @@
   "precommit": "npm run prettier",
   "prepush": "call npm run lint && call npm run test",
   "dependencies": {
+    "heroku": "^7.35.1",
     "mocha": "^6.2.2"
   }
 }
