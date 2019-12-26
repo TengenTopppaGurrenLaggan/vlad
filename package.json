@@ -5,11 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scripts": {
       "start": "node index.js",
-      "your-own-script": "echo npm"
-    }
-  },
+      "your-own-script": "echo npm"},
   "keywords": [],
   "author": "",
   "license": "ISC",
