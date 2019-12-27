@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jshint index.js",
-    "start": "node index.js",
-    "stat": "run index.html",
-    "your-own-script": "echo npm"
+    "test": "eslint .",
+    "start": "node server.js",
+    "prettier": "prettier --config .prettierrc.json --write .js"
   },
   "husky": {
     "hooks": {
