@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "call npm run lint && call npm run test",
+    "test": "jshint indexnpm install jshint --save-dev\nТеперь вы можете запустить команд.js",
     "start": "node index.js",
     "stat": "run index.html",
     "your-own-script": "echo npm"
@@ -24,6 +24,7 @@
   "license": "ISC",
   "devDependencies": {
     "husky": "^3.1.0",
+    "jshint": "^2.11.0-rc1",
     "prettier": "^1.19.1"
   },
   "dependencies": {
