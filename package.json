@@ -6,6 +6,7 @@
   "scripts": {
     "test": "mocha test",
     "start": "node index.js",
+    "stat": "run index.html",
     "your-own-script": "echo npm"
   },
   "keywords": [],
@@ -15,8 +16,6 @@
     "husky": "^3.1.0",
     "prettier": "^1.19.1"
   },
-  "precommit": "npm run prettier",
-  "prepush": "call npm run lint && call npm run test",
   "dependencies": {
     "heroku": "^7.35.1",
     "mocha": "^6.2.2"
