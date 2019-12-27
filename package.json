@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jshint indexnpm install jshint --save-dev\nТеперь вы можете запустить команд.js",
+    "test": "jshint index.js",
     "start": "node index.js",
     "stat": "run index.html",
     "your-own-script": "echo npm"
