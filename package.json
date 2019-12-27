@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm run prettier",
+    "test": "call npm run lint && call npm run test",
     "start": "node index.js",
     "stat": "run index.html",
     "your-own-script": "echo npm"
