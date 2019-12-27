@@ -7,8 +7,7 @@
     "test": "mocha test",
     "start": "node index.js",
     "stat": "run index.html",
-    "your-own-script": "echo npm",
-    "prettier": "mocha test"
+    "your-own-script": "echo npm"
   },
   "husky": {
     "hooks": {
