@@ -9,7 +9,7 @@
     "your-own-script": "echo npm"
   },
   "keywords": [],
-  "author": "",
+  "author": "@TengenToppaGurrenLaggan",
   "license": "ISC",
   "devDependencies": {
     "husky": "^3.1.0",
