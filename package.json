@@ -5,9 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha test",
-    "start": "node index.html",
+    "start": "node index.js",
     "stat": "run index.html",
     "your-own-script": "echo npm"
+  },
+  "husky": {
+    "hooks": {
+      "precommit": "npm run prettier",
+      "prepush": "call npm run lint && call npm run test"
+    }
   },
   "repository": {
     "type": "git",
@@ -22,12 +28,7 @@
   },
   "dependencies": {
     "heroku": "^7.35.1",
-    "mocha": "^6.2.2"
-  },
-  "husky": {
-    "hooks": {
-      "precommit":"npm run prettier",
-      "prepush": "call npm run lint && call npm run test"
-  }
+    "mocha": "^6.2.2",
+    "travis": "^0.1.1"
   }
 }
