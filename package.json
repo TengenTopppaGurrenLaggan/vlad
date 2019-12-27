@@ -9,6 +9,10 @@
     "stat": "run index.html",
     "your-own-script": "echo npm"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TengenTopppaGurrenLaggan/vlad.git"
+  },
   "keywords": [],
   "author": "@TengenToppaGurrenLaggan",
   "license": "ISC",
@@ -23,22 +27,14 @@
   "husky": {
     "hooks": {
       "precommit":"npm run prettier",
-      "prepush": "call npm run lint && call npm run test"
+      "prepush": "call npm run lint && call npm run test",
+      "hook":{
+        "type":"App",
+        "id":11,
+        "active":true,
+        "events":["pull_request"],
+        "app_id":37
     }
-  },
-  "hook":{
-    "type":"App",
-    "id":11,
-    "active":true,
-    "events":["pull_request"],
-    "app_id":37
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/TengenTopppaGurrenLaggan/vlad.git"
-  },
-  "scripts": {
-    "build": "gulp build",
-    "test": "gulp archive && mocha --require @babel/register --reporter spec --timeout 5000"
+  }
   }
 }
