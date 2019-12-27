@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - node
 script:
-  - make lint index.js
-  - make test index.js
+  - make lint
+  - make test
 notifications:
   email: false
